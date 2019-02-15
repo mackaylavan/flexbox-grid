@@ -97,40 +97,53 @@ textarea {
 
 
 html {
-  background-color: rgb(26, 26, 26);
+  background-color: rgb(78, 37, 78);
   height: 100%;
 }
 header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff; 
+   
 }
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
   font-size: 1.25em;
+  color: #fff;
   height: 100%;
 }
 
+
+#about {
+    border-bottom:2px solid darkgray;
+}
 .wrapper {
   display: flex;
   justify-content: space-between;
   font-weight: 700;
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+ 
 }
 
 .div-1, .div-2, .div-3 {
   width: 30%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:center;
   color: #fff;
   line-height: 1.5em;
   font-size: 1em;
   border-right: 1px solid darkgray;
-  padding: 2em;
+  padding: 1.2em;
 }
 
-
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid darkgray;
+   }
 
 
 /* ==========================================================================
